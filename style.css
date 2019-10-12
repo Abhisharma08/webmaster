@@ -25,6 +25,7 @@ body
 }
 
 .navbar{
+    background-color: #AFEEEE;
 	overflow: hidden;
     position: fixed;
     top: 0;
@@ -38,10 +39,10 @@ body
 }
 
 .navbar a
-{
+{    font-size: 30px;
 	text-decoration: none;
 	color: #33691E;
-	font-family: Tahoma;
+	font-family: 'Baloo Bhai', cursive;
 	margin-right: 80px;
 	border: 2px solid transparent;
 	padding: 10px;
