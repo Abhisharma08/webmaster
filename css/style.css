@@ -25,6 +25,7 @@ body
 }
 
 .navbar{
+    background-color: #AFEEEE;
 	overflow: hidden;
     position: fixed;
     top: 0;
@@ -38,10 +39,10 @@ body
 }
 
 .navbar a
-{
+{    font-size: 30px;
 	text-decoration: none;
 	color: #33691E;
-	font-family: Tahoma;
+	font-family: 'Baloo Bhai', cursive;
 	margin-right: 80px;
 	border: 2px solid transparent;
 	padding: 10px;
@@ -164,7 +165,10 @@ body
 }
 input
 { 
+
 	display: block;
+	.inp-name, .inp-mail, .inp-msg;
+
 	margin: 0 auto;
 	margin-bottom: 10px;
 	margin-top: 10px;
@@ -233,5 +237,74 @@ input[type=text]
 	padding: 10px;
 	float: right;
 	background: gray;
+}
+
+.toggle span
+{
+
+	width: 100%;
+	height: 4px;
+	background-color: #fff;
+	display: block;
+	margin-bottom: 3px;
 
 }
+
+@media(max-width: 768px)
+{
+.toggle
+	{
+     display: block;
+
+     position: fixed;
+	}
+	.navbar
+	{
+		display: none;
+    }
+
+    .navbar a
+    {
+    	display: block;
+    	text-align: center;
+    	padding: 10px;
+
+    }
+
+.about-section p
+
+{
+
+     width: 98%;
+     padding: 0;
+     font-size: 20px;
+
+}
+
+.skills-section img
+{
+       height: 110px;
+       width: 110px;
+
+}
+.inp-name, .inp-mail, .inp-msg
+{
+	width: 95%;
+}
+
+}
+
+@media (max-width: 350px )
+{
+	.head-content img
+	{
+		width: 90%;
+	}
+	.name
+	{
+		font-size: 30px;
+	}
+}
+
+
+
