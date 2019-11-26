@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
@@ -40,6 +41,8 @@ I’m extremely passionate about web development and design in all it’s forms 
 <img src="img/html.png">
 <img src="img/css.png">
 <img src="img/js.png">
+<img src="img/clang.png">
+<img src="img/cpp.png">
 </div>
 
 <div class="contact-section" id="contact">
@@ -55,6 +58,29 @@ I’m extremely passionate about web development and design in all it’s forms 
 	<p>Abhimanyu Sharma &copy; 2019-20</p>
 </div>
 </div>
-
 </body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".toggle").click(function(){
+
+              $(".navbar").slideToggle()
+       });
+	
+             $(window).resize(function(){
+             	if($(window).width()>768)
+             	{
+             		$('.navbar').show();
+             	}
+             	else
+             	{
+             		$('.navbar').hide();
+             	}
+
+             });
+
+	});
+
+</script>
+ 
+
 </html>
